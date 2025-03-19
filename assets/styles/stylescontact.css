@@ -87,3 +87,59 @@ body {
 .contact-info form button:hover {
   background-color: #f8bdbf;
 }
+
+/* Media Queries */
+
+@media (min-width: 768px) {
+  .container {
+    width: 80%;
+  }
+
+  .contact-info {
+    max-width: 600px;
+  }
+
+  .contact-section h1 {
+    font-size: 2.5em;
+  }
+
+  .contact-section p {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    width: 70%;
+  }
+
+  .contact-info {
+    max-width: 800px;
+  }
+
+  .contact-section h1 {
+    font-size: 3em;
+  }
+
+  .contact-section p {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 60%;
+  }
+
+  .contact-info {
+    max-width: 1000px;
+  }
+
+  .contact-section h1 {
+    font-size: 3.5em;
+  }
+
+  .contact-section p {
+    font-size: 24px;
+  }
+}
