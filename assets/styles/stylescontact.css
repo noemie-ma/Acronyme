@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contact-section {
+  background-image: url("../images/flourosesContact.jpeg");
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-section h1 {
+  font-size: 2em;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-section p {
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  text-align: left;
+}
+
+.contact-info label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact-info form input,
+.contact-info form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.contact-info form textarea {
+  height: 100px;
+  resize: none;
+}
+
+.contact-info form button {
+  background-color: #f8bdbf;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.contact-info form button:hover {
+  background-color: #f8bdbf;
+}

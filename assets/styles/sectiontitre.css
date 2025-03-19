@@ -1,0 +1,41 @@
+.zone-titre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+}
+
+.carre-titre {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: start;
+  background-image: url("../images/fond-titre.jpeg");
+  padding: 210px 0px;
+}
+
+.carre-titre h1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+.slogan {
+  margin-top: 8px;
+}
+
+@media (max-width: 991px) {
+  .zone-titre {
+    padding: 1px 0px;
+    background-color: #000000;
+  }
+
+  .titre {
+    max-width: 100%;
+    font-size: 40px;
+  }
+
+  .slogan {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,28 @@
+.photo-gallery {
+  background-color: rgba(165, 176, 107, 1);
+  display: flex;
+  gap: 40px 48px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 64px;
+}
+
+.photo-gallery img {
+  aspect-ratio: 1.46;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  min-width: 240px;
+  flex: 1;
+  flex-basis: 0%;
+}
+
+@media (max-width: 991px) {
+  .photo-gallery {
+    padding: 20px;
+  }
+
+  .photo-gallery img {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique de Fleurs</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/images/logo-vert.png" alt="Logo d'Acronyme" />
+        </div>
+        <div class="navbar">
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="./index.html" class="nav-item">Home</a></li>
+                    <li><a href="./boutique.html" class="nav-item">Nos bouquets</a></li>
+                    <li><a href="./informations.html" class="nav-item">Informations</a></li>
+                    <li><a href="./contact.html" class="nav-item">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="content">
+            <section class="filters">
+                <h2>Filtres</h2>
+                <form>
+                    <div class="filter-section">
+                        <h4>Bouquets</h4>
+                        <select id="type" name="type">
+                            <option value="roses">Roses</option>
+                            <option value="tulipes">Tulipes</option>
+                            <option value="lavande">Lavande</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-section">
+                        <h4>Style</h4>
+                        <select id="style" name="style">
+                            <option value="moderne">Moderne</option>
+                            <option value="classique">Classique</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-section">
+                        <h4>Prix</h4>
+                        <input type="range" min="0" max="100" value="50">
+                    </div>
+
+                    <div class="filter-section">
+                        <h4>Couleurs</h4>
+                        <div>
+                            <input type="checkbox" id="rose" name="rose" checked>
+                            <label for="rose">Rose</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="violet" name="violet" checked>
+                            <label for="violet">Violet</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="blanc" name="blanc">
+                            <label for="blanc">Blanc</label>
+                        </div>
+                    </div>
+
+                    <div class="filter-section">
+                        <h4>Taille du bouquet</h4>
+                        <div>
+                            <input type="checkbox" id="10fleurs" name="10fleurs">
+                            <label for="10fleurs">10 Fleurs</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="25fleurs" name="25fleurs">
+                            <label for="25fleurs">25 Fleurs</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="50fleurs" name="50fleurs" checked>
+                            <label for="50fleurs">50 Fleurs</label>
+                        </div>
+                    </div>
+                </form>
+            </section>
+
+            <section>
+                <section class="search-section">
+                    <div class="search-bar">
+                        <input type="text" placeholder="Rechercher" id="searchInput">
+                        <button type="submit">🔍</button>
+                    </div>
+                </section>
+                <section class="bouquet-list">
+                    <div class="bouquet">
+                        <img src="assets/images/1roseclaire.jpg" alt="Bouquet Roseclaire">
+                        <h3>Bouquet Roseclaire</h3>
+                        <p>€39</p>
+                    </div>
+                    <div class="bouquet">
+                        <img src="assets/images/2noemi.jpg" alt="Bouquet Noemi">
+                        <h3>Bouquet Noemi</h3>
+                        <p>€45</p>
+                    </div>
+                    <div class="bouquet">
+                        <img src="assets/images/3Rose .jpg" alt="Bouquet Rose">
+                        <h3>Bouquet Rose</h3>
+                        <p>€29</p>
+                    </div>
+                    <div class="bouquet">
+                        <img src="assets/images/4lavande.jpg" alt="Bouquet Lavande">
+                        <h3>Bouquet Lavande</h3>
+                        <p>€20</p>
+                    </div>
+                    <div class="bouquet">
+                        <img src="assets/images/5hind.jpg" alt="Bouquet Hind">
+                        <h3>Bouquet Hind</h3>
+                        <p>€59</p>
+                    </div>
+                    <div class="bouquet">
+                        <img src="assets/images/6Savage.jpg" alt="Bouquet Savage">
+                        <h3>Bouquet Savage</h3>
+                        <p>€45</p>
+                    </div>
+                </section>
+            </section>
+        </div>
+    </div>
+    <footer class="footer">
+        <nav class="footer-menu">
+            <div class="menu-header">
+                <h2 class="menu-title">Menu</h2>
+            </div>
+            <a href="#" class="menu-item">Home</a>
+            <a href="#" class="menu-item">Nos bouquets</a>
+            <a href="#" class="menu-item">Informations</a>
+            <a href="#" class="menu-item">Contact</a>
+        </nav>
+
+        <div class="logo-container">
+            <img loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/535829271b3c589ca798781e95b114a7c6e485b75bef1cc7de62d3009153e003?placeholderIfAbsent=true&apiKey=aab1ce95519640e882fbd15db20cb590"
+                class="logo-image" alt="Company logo" />
+        </div>
+
+        <div class="footer-content">
+            <blockquote class="quote">
+                "Les fleurs nous enseignent que <br /> même les plus petites choses peuvent <br /> apporter une grande
+                beauté à la vie."
+            </blockquote>
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook">
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/691e234663221e3bf795b125da03ff5b7536eb833f8bd80b68e81465e68182fc?placeholderIfAbsent=true&apiKey=aab1ce95519640e882fbd15db20cb590"
+                        class="social-icon social-icon-facebook" alt="" />
+                </a>
+                <a href="#" aria-label="Twitter">
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/bca1b2acdca16a1fe4483b7a7cf94be98b724df75d66e6c16fb21eadc75fd68f?placeholderIfAbsent=true&apiKey=aab1ce95519640e882fbd15db20cb590"
+                        class="social-icon" alt="" />
+                </a>
+                <a href="#" aria-label="Instagram">
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/3f33a23cce6e16124201d28a73d483ba6cfd3a0db558a1aece4f636166beec70?placeholderIfAbsent=true&apiKey=aab1ce95519640e882fbd15db20cb590"
+                        class="social-icon" alt="" />
+                </a>
+                <a href="#" aria-label="LinkedIn">
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/6ccc9ebcb2a815178fdb084e48af9fc040d3747c9a7e4ae94dcefcda36d6867b?placeholderIfAbsent=true&apiKey=aab1ce95519640e882fbd15db20cb590"
+                        class="social-icon" alt="" />
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+.seasonal-bouquet-section {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 42px;
+}
+
+.section-title {
+  align-self: center;
+  width: 100%;
+  max-width: 303px;
+  color: #a5b06b;
+  text-align: center;
+}
+
+.bouquet-container {
+  display: flex;
+  margin-top: 48px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.bouquet-box {
+  border-radius: 16px;
+  background-color: #f8bdbf;
+  display: flex;
+  min-width: 240px;
+  width: 100%;
+  align-items: center;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 24px;
+  border: 1px solid #f8bdbf;
+  margin-top: 24px;
+}
+
+.bouquet-box:first-child {
+  margin-top: 0;
+}
+
+.bouquet-image {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 160px;
+  align-self: stretch;
+  min-width: 160px;
+  min-height: 160px;
+  margin: auto 0;
+}
+
+.bouquet-details {
+  align-self: stretch;
+  display: flex;
+  min-width: 160px;
+  flex-direction: column;
+  justify-content: start;
+  flex: 1;
+  flex-basis: 0%;
+  margin: auto 0;
+}
+
+.bouquet-text {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.bouquet-season {
+  letter-spacing: -0.48px;
+}
+
+.bouquet-description {
+  color: #1e1e1e;
+  margin-top: 8px;
+}
+
+.button-wrapper {
+  display: flex;
+  margin-top: 16px;
+  width: 100%;
+  align-items: center;
+  gap: 16px;
+  white-space: nowrap;
+  justify-content: start;
+}
+
+.visit-button {
+  align-self: stretch;
+  border-radius: 8px;
+  background-color: #a5b06b;
+  gap: 8px;
+  overflow: hidden;
+  margin: auto 0;
+  padding: 12px;
+  border: 1px solid #000000;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000000;
+}
+
+@media (max-width: 991px) {
+  .seasonal-bouquet-section {
+    padding: 20px; /* Réduit le padding */
+  }
+
+  .section-title {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .bouquet-container {
+    margin-top: 24px;
+  }
+
+  .bouquet-box {
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  .bouquet-image {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .bouquet-details {
+    width: 100%;
+    text-align: center;
+  }
+
+  .button-wrapper {
+    flex-direction: column;
+  }
+
+  .visit-button {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+}
